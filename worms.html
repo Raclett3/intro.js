@@ -1,0 +1,1 @@
+<canvas id=c></canvas><script>i=0;c=document.getElementById("c").getContext("2d");setInterval(()=>{c.clearRect(0,0,300,150);for(j=0;j<299;j++)c.fillRect(j,Math.sin(j/9)*9+(((i+j)/99)<<0)*99%150,2,2);i+=2},50)</script>
