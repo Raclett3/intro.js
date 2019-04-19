@@ -1,1 +1,1 @@
-<canvas id=c></canvas><script>a=0;p=3.14;setInterval(()=>{c=document.getElementById("c").getContext("2d");c.clearRect(0,0,150,150);for(i=0;i<p*5;i+=p/20){c.beginPath();c.arc(Math.cos(i+a)*i*3+75,Math.sin(i+a)*i*3+75,3,0,6.3);c.fill()}a+=p/20},33)</script>
+<canvas id=c></canvas><script>a=0;p=3.14;c=document.getElementById("c").getContext("2d");setInterval(()=>{c.clearRect(0,0,150,150);for(i=0;i<p*5;i+=p/20){c.beginPath();c.arc(Math.cos(i+a)*i*3+75,Math.sin(i+a)*i*3+75,3,0,6.3);c.fill()}a+=p/20},33)</script>
